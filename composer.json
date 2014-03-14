@@ -1,0 +1,29 @@
+{
+    "name": "webignition/cookie-path-matcher",
+    "description": "Implementation of cookie path matching specified in RFC626",
+    "keywords": ["cookie", "path", "matcher"],
+    "homepage": "https://github.com/webignition/cookie-path-matcher",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jon Cram",
+            "email": "jon@webignition.net"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "webignition\\Tests": "tests/",
+            "": "src/"
+        }
+    },   
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "symfony/class-loader": "*",
+        "phpunit/phpunit": "3.7.*"
+    },            
+    "minimum-stability":"stable",
+    "prefer-stable":true
+}
