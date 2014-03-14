@@ -1,6 +1,6 @@
 {
     "name": "webignition/cookie-path-matcher",
-    "description": "Implementation of cookie path matching specified in RFC626",
+    "description": "Implementation of cookie path matching specified in RFC6265",
     "keywords": ["cookie", "path", "matcher"],
     "homepage": "https://github.com/webignition/cookie-path-matcher",
     "type": "library",
